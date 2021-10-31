@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class HelloApplication extends Application {
 
-
+//Kiril Valkov i Slavqn Ovnarski
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load((Objects.requireNonNull(getClass().getResource("hello-view.fxml"))));
