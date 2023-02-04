@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.FXMLDocumentController">
+   <children>
+      <Button  fx:id="adddbtn" layoutX="442.0" layoutY="325.0" mnemonicParsing="false" onAction="#onAdd"  prefHeight="45.0" prefWidth="109.0" text="Добави" />
+      <Button layoutX="48.0" layoutY="325.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="109.0" text="Изчисти" />
+      <TextField layoutX="48.0" layoutY="56.0" prefHeight="25.0" prefWidth="372.0" text="модел" />
+      <TextField layoutX="48.0" layoutY="105.0" prefHeight="25.0" prefWidth="372.0" text="описание" />
+      <TextField layoutX="48.0" layoutY="155.0" text="бройки" />
+   </children>
+</AnchorPane>
